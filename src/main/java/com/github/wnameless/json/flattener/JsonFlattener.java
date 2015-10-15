@@ -192,7 +192,7 @@ public final class JsonFlattener {
           sb.append('"');
           sb.append(']');
         } else {
-          if (sb.length() != 0) sb.append('.');
+          if (sb.length() != 0) sb.append('_');
           sb.append(key);
         }
       } else {
